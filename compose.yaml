@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres'
+    environment:
+      - 'POSTGRES_DB=cos'
+      - 'POSTGRES_USER=postgres'
+      - 'POSTGRES_PASSWORD=bluesoft8437'
+    ports:
+      - '5432'
